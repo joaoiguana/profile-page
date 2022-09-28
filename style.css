@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  background: var(--color-background);
+  color: black;
+  grid-template: "header header"  auto
+                 "aside  main  "  1fr /
+                  auto   1fr;
+}
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: aside;
+}
+
+main {
+  grid-area: main;
+  overflow-y: scroll;
+}
+
+.header, .footer {
+  grid-column: 1 / span 3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  line-height: 1;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+}
+
+button {
+  font-family: 'Poppins', Arial, sans-serif;
+  cursor: pointer;
+}

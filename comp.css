@@ -1,0 +1,22 @@
+/* Header */
+.header {
+  background-color: white;
+  height: var(--length-md3);
+  padding: var(--length-sm1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  background-color: var(--color-primary);
+  width: 20vw;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  align-items: center;
+}
