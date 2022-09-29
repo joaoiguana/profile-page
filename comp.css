@@ -14,13 +14,29 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  align-items: center;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   background-color: var(--color-primary);
   width: 20vw;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-  align-items: center;
+  border-top-right-radius: var(--length-md1);
 }
+
 
 #sidebar.hidden {
   display: none;
+}
+
+.sidebar-link {
+  font-size: var(--length-md1);
+  gap: var(--length-xl1);
+}
+
+.sidebar-link:hover {
+  transform: translateY(-5px);
+}
+
+.sidebar-close {
+  font-size: var(--length-md2);
+  margin-top: var(--length-md2);
 }
