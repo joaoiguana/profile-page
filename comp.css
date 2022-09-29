@@ -40,3 +40,19 @@
   font-size: var(--length-md2);
   margin-top: var(--length-md2);
 }
+
+.profile-head {
+  display: flex;
+  align-items: center;
+  margin: var(--length-md2);
+  padding: var(--length-sm3);
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: var(--length-sm1);
+}
+
+.profile-pic {
+  height: var(--length-xl3);
+  border-radius: var(--length-xl3);
+  margin-right: var(--length-md1);
+}
