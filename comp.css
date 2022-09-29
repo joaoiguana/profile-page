@@ -10,6 +10,8 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
+/* Sidebar */
+
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -41,13 +43,14 @@
   margin-top: var(--length-md2);
 }
 
+/* Profile head */
+
 .profile-head {
   display: flex;
   align-items: center;
   margin: var(--length-md2);
   padding: var(--length-sm3);
   background-color: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   border-radius: var(--length-sm1);
 }
 
@@ -55,4 +58,12 @@
   height: var(--length-xl3);
   border-radius: var(--length-xl3);
   margin-right: var(--length-md1);
+}
+
+.profile-selections {
+  display: flex;
+}
+
+.profile-selection {
+  margin-right: var(--length-lg2);
 }
